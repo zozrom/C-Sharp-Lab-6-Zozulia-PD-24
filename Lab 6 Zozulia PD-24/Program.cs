@@ -29,14 +29,14 @@ namespace Laba_6_Zozulia_Roman_PD_24
 
 
             //Рахуємо к-ть повторів числа 
-            int kilkist_povtoriv_chisel = 0;
+            int kilkist_povtoriv_chisel_ = 0;
             for (int i = 0; i < array.Length; i++)
             {
                 for (int j = 1 + i; j < array.Length; j++)
                 {
                     if (array[i] == array[j])
                     {
-                        kilkist_povtoriv_chisel++;
+                        kilkist_povtoriv_chisel_++;
                     }
                 }
             }
@@ -46,7 +46,7 @@ namespace Laba_6_Zozulia_Roman_PD_24
             {
                 Console.WriteLine(array[i]);
             }
-            Console.WriteLine($"Count povtoriv  {kilkist_povtoriv_chisel}");
+            Console.WriteLine($"Count povtoriv  {kilkist_povtoriv_chisel_}");
 
 
         }
